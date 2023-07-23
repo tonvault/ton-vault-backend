@@ -1,0 +1,42 @@
+# Ignore Python byte-compiled files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc.?
+
+# Ignore virtual environment directories
+venv
+*.venv
+# env
+# *.env
+
+# Ignore logs
+logs
+*.log
+
+# Ignore local configuration files
+*.ini
+*.conf
+
+# Ignore test-related files
+tests
+*.test
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore build artifacts
+dist
+build
+*.egg-info
+
+# Ignore cache and temporary files
+*.cache
+*.tmp
+*.bak
+*.swp
+*.py[co]
+*~
+#s#
