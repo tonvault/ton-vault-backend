@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "semi": true,
+  "tabWidth": 4,
+  "overrides": [
+    {
+      "files": "{test/**/*spec.ts,src/**/*spec.ts}",
+      "options": {
+        "tabWidth": 4,
+        "printWidth": 120
+      }
+    }
+  ]
+}
