@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Ton Vault Backend",
   "author": "shcube",
-  "private": true,
   "license": "Apache-2.0",
   "scripts": {
     "build": "nest build",
