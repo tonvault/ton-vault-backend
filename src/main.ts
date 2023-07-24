@@ -8,8 +8,9 @@ async function bootstrap() {
     const app = await NestFactory.create(TonVaultModule);
     const configService: ConfigService<EnvironmentVariables> = app.get(ConfigService);
     app.setGlobalPrefix(configService.get('GLOBAL_PREFIX'));
-    // todo: forbid cors
-    app.enableCors();
+    if (configService.get('ENV') !== 'PROD') {
+        app.enableCors();
+    }
     app.useGlobalPipes(
         new ValidationPipe({
             whitelist: true,
