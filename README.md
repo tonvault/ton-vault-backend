@@ -1,4 +1,3 @@
-rea
 <div align="center">
 <img src="https://raw.githubusercontent.com/tonvault/tonconnect-manifest/main/apple-icon.svg" alt="Ton Vault Logo">
 </div>
