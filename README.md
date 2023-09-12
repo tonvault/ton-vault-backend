@@ -5,6 +5,9 @@
 # Ton Vault Backend
 Check details about Ton Vault Protocol in  [official documentation](https://tonvault.gitbook.io/docs/).
 
+## Warning!
+This implementation is only for demonstration purposes and is not intended to be used in production. It is not fault-tolerant, injection subroutines are not atomic, and the code is not optimized for performance.
+
 # Bootstrapping
 ## Requirements
 > - [MongoDB](https://www.mongodb.com/)
